@@ -19,9 +19,9 @@ let package = Package(
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         
-        .binaryTarget(name: "KitabooBookShelfFramework", url: "https://qaread.kitaboo.com/reader/Sprint/githubfiles/GithubZip/KitabooBookShelfFramework.xcframework.zip", checksum: "b40d2f25658fdbf161b14a337dbbd74ca8d615cd2d7adcc697b046e41310279e"),
-        .binaryTarget(name: "Kitaboo_Reader_SDK", url: "https://qaread.kitaboo.com/reader/Sprint/githubfiles/GithubZip/Kitaboo_Reader_SDK.xcframework.zip", checksum: "ef02eda8e200681806f6f5cdc56b16c0e66fb6b2b7c74091a1d7e28d554a18cb"),
-        .binaryTarget(name: "KitabooSDKWithReader", url: "https://qaread.kitaboo.com/reader/Sprint/githubfiles/GithubZip/KitabooSDKWithReader.xcframework.zip", checksum: "4f9d888e0c4f8498c3784f73624a33ce248250d4095045c3334cc1330b2ec69d"),
+        .binaryTarget(name: "KitabooBookShelfFramework", url: "https://qaread.kitaboo.com/reader/Sprint/bvb/githubfiles/GithubZip/KitabooBookShelfFramework.xcframework.zip", checksum: "c9c8064fa4d1c0f8455e339726108f80c9f5f0f2964acf51ab2af9cb74fc21d9"),
+        .binaryTarget(name: "Kitaboo_Reader_SDK", url: "https://qaread.kitaboo.com/reader/Sprint/bvb/githubfiles/GithubZip/Kitaboo_Reader_SDK.xcframework.zip", checksum: "fd6008c7dee195e721e48d53fe71d32ed2713e90a515d56622ef3013592980df"),
+        .binaryTarget(name: "KitabooSDKWithReader", url: "https://qaread.kitaboo.com/reader/Sprint/bvb/githubfiles/GithubZip/KitabooSDKWithReader.xcframework.zip", checksum: "b9f93f198f95456ca95e251f1b92af541679daa780756dc6a318836153979ed4"),
         .target(
             name: "BVBSPM",
             dependencies: []),
